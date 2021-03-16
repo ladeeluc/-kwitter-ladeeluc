@@ -17,3 +17,19 @@ export const logoutRequest = (token) => {
     headers: { Authorization: "Bearer " + token },
   }).then((res) => res.json());
 };
+
+// export const messagesRequest = () => {
+//   return fetch(baseURL + "messages?limit=10", {
+//     method: "GET",
+//     headers: { "Content-Type": "application/json" },
+
+//   })
+// }
+
+// export const createUserRequest = () => {
+//   return fetch(baseURL + "users", {
+//     method: "POST",
+//     headers: { "Content-Type": "application/json" },
+
+//   })
+// }
